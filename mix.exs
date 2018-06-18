@@ -40,7 +40,8 @@ defmodule GraphqlSample.Mixfile do
       {:gettext, "~> 0.11"},
       {:absinthe_ecto, "~> 0.1.0"},
       {:absinthe_plug, "~> 1.3.0"},
-      {:cowboy, "~> 1.0"}
+      {:cowboy, "~> 1.0"},
+      {:inner_cotton, "~> 0.2", only: [:dev, :test]},
     ]
   end
 
