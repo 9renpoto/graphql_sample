@@ -1,5 +1,7 @@
 defmodule GraphqlSample.Repo do
-  use Ecto.Repo, otp_app: :graphql_sample
+  use Ecto.Repo,
+    otp_app: :graphql_sample,
+    adapter: Ecto.Adapters.Postgres
 
   @doc """
   Dynamically loads the repository url from the
